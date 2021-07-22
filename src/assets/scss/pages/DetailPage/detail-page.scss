@@ -1,0 +1,87 @@
+@import '../../utility';
+
+
+.anime-title {
+    background-color: $secondaryColor;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 1.3rem;
+}
+
+.border-bottom {
+    border-bottom: 2px solid black !important;
+}
+
+.text-gray-500 {
+    color: rgba(0,0,0, 0.5);
+}
+
+.text-lg {
+    font-size: 1.1rem;
+}
+
+.text-title {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.detail-image {
+    width: 40%;
+}
+
+.detail-description {
+    font-size: 0.9rem;
+}
+
+.sub-desc {
+    font-size: 0.7rem;
+}
+
+.desc {
+    font-size: 1rem;
+}
+
+.synopsis {
+    font-size: 0.9rem;
+}
+
+.w-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.divide-y {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.btn {
+    background-color: $darkColor !important;
+    color: white;
+}
+
+@media screen and (min-width: $breakout-tablet) {
+    .detail-image {
+        width: 15rem;
+    }
+
+    .flex-1 {
+        flex: 1;
+    }
+
+    .border-none {
+        border: none !important;
+    }
+}

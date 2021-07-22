@@ -1,0 +1,24 @@
+@import '../../utility';
+
+.card {
+    width: 18rem;
+    height: 42rem;
+    background-color: $secondaryColor;
+}
+
+.card-subtitle, .card-title {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 27rem;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: $ternaryColor;
+    border-color: $ternaryColor;
+}

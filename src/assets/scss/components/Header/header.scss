@@ -1,0 +1,33 @@
+@import '../../utility';
+
+.form-search {
+    width: 25%;
+}
+
+.title {
+    color: white;
+}
+
+header {
+    background-color: $darkColor;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+
+.nav-item:hover {
+    color: rgba(255,255,255,0.5);
+}
+
+
+@media screen and (max-width: $breakout-tablet){
+    .form-search {
+        width: 100%;
+        margin: 0 2rem;
+    }
+}

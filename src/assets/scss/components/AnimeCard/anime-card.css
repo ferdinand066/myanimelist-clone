@@ -1,0 +1,28 @@
+a, a:link, a:focus {
+  text-decoration: none;
+}
+
+.card {
+  width: 18rem;
+  height: 42rem;
+  background-color: #62B6CB;
+}
+
+.card-subtitle, .card-title {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 27rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn {
+  background-color: #CAE9FF;
+  border-color: #CAE9FF;
+}
+/*# sourceMappingURL=anime-card.css.map */
